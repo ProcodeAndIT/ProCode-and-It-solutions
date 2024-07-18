@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-color: rgb(16, 50, 96);
+    color: rgb(251, 251, 251);
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(62, 137, 180); /* Agregando sombra azul al encabezado */
+}
+.logo {
+    width: 200px; /* Ajusta el ancho de la imagen aquí */
+    height: auto;
+}
+.social-links a {
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.social-links img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(62, 137, 180); /* Definición de la sombra */
+}
+.section:nth-child(odd) {
+    background-color: rgb(16, 50, 96); /* Color de fondo para secciones impares */
+}
+.section:nth-child(even) {
+    background-color: rgb(16, 50, 96); /* Color de fondo para secciones pares */
+}
+.section img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(62, 137, 180); /* Aplicando sombra a las imágenes */
+}
+.text-box {
+    margin-top: 20px;
+    color: rgb(251, 251, 251); /* Cambia el color del texto a blanco */
+}
+.text-box a {
+    color: rgb(251, 251, 251); /* Cambia el color de los enlaces a blanco */
+}
+.text-box ul {
+    color: rgb(251, 251, 251); /* Cambia el color de las viñetas a blanco */
+}
+.spam {
+    text-align: center;
+    margin-top: 50px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: rgb(62, 137, 180);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Nueva regla para centrar solo la nueva imagen */
+.section.new-section img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para la nueva sección de imágenes horizontales */
+.new-images-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-link {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-link img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(62, 137, 180); /* Aplicando sombra a las imágenes */
+}
+footer {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 0 rgb(16, 50, 96), 0 0px 10px 0 rgb(62, 137, 180);
+    transition: background-color 0.3s ease;
+}

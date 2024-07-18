@@ -1,0 +1,92 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    background: url('') no-repeat center center fixed; /* Ruta de la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+}
+footer { /* Parte de abajo(copyright y demas) */
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+/* aparte */
+
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #d00000;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+.login-form-1, .login-form-2, .login-form-3{
+    padding: 9%;
+    box-shadow: 0 5px 10px 0 rgb(16, 50, 96), 0 0px 10px 0 rgb(62, 137, 180);
+    border: 0px solid transparent;
+    background-clip: padding-box;
+}
+.login-form-1{
+    background: rgb(16, 50, 96);
+}
+.login-form-2{
+    background: rgb(62, 137, 180);
+}
+.login-form-3{
+    background: linear-gradient(to right, rgb(16, 50, 96) 50%, rgb(62, 137, 180) 50%);
+   
+}
+.login-form-1 h3, .login-form-2 h3, .login-form-3 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #f40000;
+    background-color: #ff0d0d;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #ea0e0e;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:rgb(62, 137, 180);
+}
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 0 rgb(16, 50, 96), 0 0px 10px 0 rgb(62, 137, 180);
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: rgb(62, 137, 180);
+}
+.center {
+    text-align: center;        
+}
